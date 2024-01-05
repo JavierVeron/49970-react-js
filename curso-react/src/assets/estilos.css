@@ -6,8 +6,13 @@
   color: yellow;
 }
 
+.colorRojo {
+  color:red;
+}
+
 .colorAzul {
-  color: lightblue;
+  color:white;
+  background-color: lightblue;
 }
 
 .espaciado {
