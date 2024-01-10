@@ -1,10 +1,11 @@
-import CompContenedor from "./Clase4/CompContenedor";
-//import CompFunc from "./Clase4/CompFunc";
+//import CompChildren from "./Clase5/CompChildren"
+import CompEfecto from "./Clase5/CompEfecto"
+//import CompUseRef from "./Clase5/CompUseRef"
 
 function App() {
   return (
     <>
-      <CompContenedor />
+        <CompEfecto />
     </>
   )
 }
