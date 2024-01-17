@@ -1,0 +1,5 @@
+[
+    {"id":1, "nombre":"Smart TV Philips HD 32'' Android gris oscuro", "precio":267594, "imagen":"https://carrefourar.vtexassets.com/arquivos/ids/307804-1600-auto?v=638138777275300000&width=1600&height=auto&aspect=true", "categoria":"led"},
+    {"id":2, "nombre":"Tv led BHG 55'' UHD Smart andorid B5522US6A negro", "precio":749999, "imagen":"https://carrefourar.vtexassets.com/arquivos/ids/258618-1600-auto?v=638018115936730000&width=1600&height=auto&aspect=true", "categoria":"led"},
+    {"id":3, "nombre":"Smart TV 55'' Samsung 4K QLED QN55Q65BAGCZB", "precio":1022999, "imagen":"https://carrefourar.vtexassets.com/arquivos/ids/267499-1600-auto?v=638065406903400000&width=1600&height=auto&aspect=true", "categoria":"qled"}
+]
