@@ -1,10 +1,11 @@
-import Fetch from "./Clase7/Fetch"
-//import FetchJson from "./Clase7/FetchJson"
+//import Clase8 from "./Clase8/Clase8"
+//import HOC from "./Clase8/HOC"
+import RenderProps from "./Clase8/RenderProps"
 
 function App() {
   return (
     <>
-        <Fetch />
+        <RenderProps />
     </>
   )
 }
