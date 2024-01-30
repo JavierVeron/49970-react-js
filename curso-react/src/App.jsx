@@ -1,18 +1,16 @@
-import { useState } from "react";
-import Eventos from "./Clase10/Eventos";
+import Contexto from "./Clase11/Contexto";
+import CartContextProvider from "./context/CartContext";
+import CompProductos from "./Clase11/CompProductos";
+import CompProductos2 from "./Clase11/CompProductos2";
 
 function App() {
-  const [visible, setVisible] = useState(true);
-
-  function ocultarComponente() {
-    setVisible(false);
-  }
-
   return (
     <>
-      {visible ? <Eventos /> : ""}
-      <p><button className="btn btn-primary" onClick={ocultarComponente}>Ocultar Componente</button></p>
-
+      <CartContextProvider>
+        <Contexto />
+        <CompProductos />
+        <CompProductos2 />
+      </CartContextProvider>
     </>
   )
 }
