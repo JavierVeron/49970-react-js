@@ -1,16 +1,11 @@
-import Contexto from "./Clase11/Contexto";
-import CartContextProvider from "./context/CartContext";
-import CompProductos from "./Clase11/CompProductos";
-import CompProductos2 from "./Clase11/CompProductos2";
+import Memo from "./Clase12/Memo";
 
 function App() {
+  const producto = {id:1, nombre:"Coca Cola", precio:1300, fecha:"02-02-2024"};
+
   return (
     <>
-      <CartContextProvider>
-        <Contexto />
-        <CompProductos />
-        <CompProductos2 />
-      </CartContextProvider>
+      <Memo item={producto} />
     </>
   )
 }
